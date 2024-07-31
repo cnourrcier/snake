@@ -4,20 +4,43 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #a8edea, #fed6e3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
+
+.container {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0px;
+    color: #ff4d4d;
+    text-shadow: 2px 2px #fff;
+}
+
 canvas {
     border: 2px solid #000;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
 }
+
 #score {
-    position: absolute;
-    top: 10px;
     font-size: 20px;
     background: #fff;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 10px;
 }

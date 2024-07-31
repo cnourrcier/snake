@@ -114,3 +114,5 @@ function gameLoop() {
 
 // a. Implement smoother animations using requestAnimationFrame.
 // b. Add levels of difficulty that increase as the score increases.
+// c. Add additional visual effects or animations to enhance the gameplay experience.
+// d. Implement a pause functionality to allow the user to pause and resume the game.
